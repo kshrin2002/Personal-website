@@ -3,12 +3,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600&display=swap');
 
+/* Gets rid of the original space */
 
 *{
     margin: 0;
     padding: 0;
 }
 
+/* Font selected from google fonts */
 body{
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
@@ -33,17 +35,24 @@ nav,
 .nav-links{
     display: flex;
 }
+
+/* Alignment and space */
+
 nav{
     justify-content: space-around;
     align-items: center;
     height: 17vh;
 }
 
+/* Gets rid of the bullet points and adjusts the font size */
+
 .nav-links{
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
 }
+
+/* Colour and hover settings of the desktop nav options */
 a{
     color:cornflowerblue;
     text-decoration: none;
@@ -56,6 +65,9 @@ a:hover{
     text-underline-offset: 1rem;
     text-decoration-color: rgb(181,181,181);
 }
+
+/* logo settings */
+
 .logo{
     font-size: 2rem;
 }
