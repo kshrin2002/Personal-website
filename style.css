@@ -22,13 +22,15 @@ p{
 
 /* Transition */
 
-a, .btn{
+a, 
+.btn{
     transition: all 300ms ease;
 }
 
 /* Desktop Nav */
 
-nav, nav-links{
+nav, 
+.nav-links{
     display: flex;
 }
 nav{
@@ -41,4 +43,15 @@ nav{
     gap: 2rem;
     list-style: none;
     font-size: 1.5rem;
+}
+a{
+    color:cornflowerblue;
+    text-decoration: none;
+    text-decoration-color: beige;
+}
+
+a:hover{
+    color:mediumaquamarine;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
 }
